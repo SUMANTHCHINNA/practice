@@ -34,4 +34,5 @@ def printEven(num):
             arr.append(i)
     return arr
 
-print(printEven(20))
+print(printEven(100))
+print(printPrime(100))
