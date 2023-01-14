@@ -34,5 +34,16 @@ def printEven(num):
             arr.append(i)
     return arr
 
-print(printEven(100))
-print(printPrime(100))
+def factRecurssion(num):
+    if(num == 1):
+        return 1
+    else:
+        return factRecurssion(num-1)*num
+
+def Fact(num):
+    count=1
+    for i in range(1,num+1):
+        count = count*i
+    return count
+
+
