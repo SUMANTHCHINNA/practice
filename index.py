@@ -46,4 +46,8 @@ def Fact(num):
         count = count*i
     return count
 
+def SumOfNatural(num):
+    a = num*(num+1)
+    return a/2
 
+print(SumOfNatural(10))
