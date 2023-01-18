@@ -98,7 +98,7 @@ def Sorting(arr):
             if(arr[y]>arr[x]):
                 arr[y],arr[x]=arr[x],arr[y]
 
-
+# 8th program...
 # Iterative python program to reverse an array
  
 # # Function to reverse A[] from start to end
@@ -139,7 +139,7 @@ A = [1, 2, 3, 4, 5, 6]
 reverseList1(A, 0, 5)
 # print(A)
 
-
+# 9th program...
 # occurance of number in array
 
 def countOccurrences(A,len,num):
@@ -154,7 +154,7 @@ len = len(arr)
 num = 2
 # print(countOccurrences(arr,len,num))
 
-
+#10th program...
 # binary search
 
 def binarySearch(arr,target):
